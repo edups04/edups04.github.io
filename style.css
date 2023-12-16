@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 6rem;
+}
+body {
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0%;
+    background-color: black;
+}
+#Home {
+    text-align: center;
+    color: green;
+}
+#h11 {
+    text-align: center;
+     color: green;
+}
+#h12 {
+    text-align: center;
+     color: green;
+}
+#h12 a{
+    text-align: center;
+    text-decoration: none;
+     color: green;
+}
+#h12 a:hover{
+    color: red;
+}
+#me {
+    text-align: center;
+     color: green;
+}
+#me a {
+    text-decoration: none;
+     color: green;
+}
+#me a:hover{
+    color: red;
+}
+#hobbies {
+    text-align: center;
+     color: green;
+}
+#hobbies ul {
+    list-style: none;
+     color: green;
+}
+#bblog {
+    text-align: center;
+     color: green;
+}
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+}
+.header-main2 {
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+}
+.header-main3 {
+     width: fit-content;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.header-main3 a {
+    cursor: pointer;
+    text-decoration: none;
+    color: green;
+}
+.header-main3 a:hover {
+    color: red;
+}
+.header-main3 ul {
+    list-style: none;
+    margin-left: 10px;
+}
+.header-main3 ul li {
+    display: inline;
+    float: left;
+    margin-right: 100px;
+    text-align: center;
+    line-height: 20px;
+    font-size: x-large;
+}
+#bblog img {
+    width: 750px;
+    height: 550px;
+    border-radius: 10px;
+}
+#orphan {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+#lie {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+
+}
+#riddler {
+    width: 190px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: -100px;
+}
+#rat {
+    width: 190px;
+    height: 250px;
+    position: absolute;
+    margin-left: -500px;
+}
+#rat2 {
+    width: 190px;
+    height: 250px;
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 100px;
+}
+#rat2 {
+    width: 190px;
+    height: 250px;
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 100px;
+}
+#rat3 {
+    width: 190px;
+    height: 250px;
+    position: absolute;
+    margin-left: -600px;
+    margin-top: -290px;
+}
+#martha {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -250px;
+}
+#wayne {
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    margin-left: 870px;
+    margin-top: -300px;
+} 
+#maze {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -500px;
+}
+#page2 {
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    margin-top: -290px;
+}
+#page1 {
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1089px;
+}
+#savage {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1089px;
+    margin-top: -500px;
+}
+#savage3 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 1100px;
+}
+.contact {
+    text-align: center;
+    color: green;
+}
+form {
+    width: 90%;
+    max-width: 600px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    margin-bottom: 30px;
+    position: relative;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid green;
+    color: green;
+    background: transparent;
+    font-size: 15px;
+    font-family: 'Anonymous Pro', monospace;
+}
+label {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: green;
+    cursor: text;
+    margin-top: -30px;
+}
+button{
+    padding: 10px 0;
+    color: green;
+    background: transparent;
+    border: 1px green;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: x-large
+}
+button:hover{
+    color: red;
+}
+#rids {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: -50px;
+}
+#bruce {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 1000px;
+    border-radius: 10px;
+}
+#bwayne {
+    width: 290px;
+    height: 280px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#mayor {
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 20px;
+}
